@@ -1,0 +1,58 @@
+HTML - Hypertext Markup Language
+
+html não é uma linguagem de programação(não possui laço de repetição, validações...). Ela é uma linguagem de marcação 
+Ela é composta por marcações e tags
+
+Precisamos de uma linguagem de programação por trás. No caso veremos o javascript
+
+CSS (Cascading Style Sheets):
+Seletores
+Propriedades
+Valores
+
+JS:
+É a linguagem de programação onde montamos a estrutura e por onde fazemos a apresentação do html e do css. Ele dá o movimento.
+
+Utilizaremos o HTML 5
+
+HTM -> Formatação
+CSS -> Estilização/Design
+JS -> Funções/Interações
+
+TAGS
+dividida em 3 partes:
+Abertura: <p>
+Conteudo
+Fechamento: </p>
+ex: <p>Exemplo de parágrafo</p>
+Existem algumas exceções. Por exemplo </br> que dá uma quebra de linha
+
+tag para link:
+<a href="destino.html">Exemplo de link</a>
+neste caso, href é um parametro e destino.html é o valor
+
+Começo de um do html:
+<!DOCTYPE html> prmeira linha
+<html lang="pt=br"> informa a principal linguagem da tela
+<head>
+    <meta charset="UTF-8"> metadados; palavras chave sobre o site. Utilizado para rankear na pesquisa no google
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> conteudo
+
+</body>
+</html>
+
+Para abrir a documentação, colocar o mouse em cima da palavra e selecionar o MDN Reference
+
+
+tags
+<p></p: paragrafo
+<hr/>: traça uma linha de ponta a ponta
+<a></a>: link
+<h1></h1>: titulo/ header (vai de 1 ao 6. 1 é maior e 6 é menor)
+</br>: quebra de linha
+
+
+
