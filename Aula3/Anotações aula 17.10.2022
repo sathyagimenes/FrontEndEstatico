@@ -1,0 +1,45 @@
+lista ordenada: 
+<ol>
+    <li>Item da lsia</li>
+</ol>
+
+estilização da lista ordenada:
+<ol type="a"> ao inves do default de numeros vai rankear com letras
+<ol start=2> Define a partir de qual posição vai começar a listar
+<ol reversed> inverte a orde da lista
+
+lista dentro de lista: 
+<ol>
+    <li>Item da lsia</li>
+        <ol>
+            <li>sub-item</li>
+        </ol>
+</ol>
+
+lista não ordenada:
+<ul>
+    <li>item da lista</li>
+</ul>
+
+estilização da lista não ordenada:
+<ul type="circle"> a bolinha vai ser branca
+<ul type="square"> o icone será um quadradinho
+
+Listas de Definição
+<dl>
+    <dt>termo (Titulo da lista)</dt>
+    <dd>definição (descrição)</dd>
+</dl>
+
+<dl> definition list - cria a lista de definição
+<dt> difinition term - onde o termo é proposto
+<dd> definition definition - onde o termo é definido
+
+
+link:
+<a href="https://github.com">Acessa site em na mesma aba</a>
+<a href="https://github.com" target="_blank">Acessa site em outra aba</a> Assim o usuario não sai do seu site
+<a href="https://github.com" target="_top">Acessa site em outra aba</a>
+<a href="https://github.com" target="_parent">Acessa site em outra aba</a> Assim o usuario não sai do seu site
+
+
