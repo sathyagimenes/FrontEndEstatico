@@ -39,7 +39,3 @@ Listas de Definição
 link:
 <a href="https://github.com">Acessa site em na mesma aba</a>
 <a href="https://github.com" target="_blank">Acessa site em outra aba</a> Assim o usuario não sai do seu site
-<a href="https://github.com" target="_top">Acessa site em outra aba</a>
-<a href="https://github.com" target="_parent">Acessa site em outra aba</a> Assim o usuario não sai do seu site
-
-
