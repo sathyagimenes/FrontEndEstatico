@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo do class - formulários</title>
+</head>
+<body>
+    <form>
+        <div>Nome: <input name="nome" type="text" placeholder="Seu nome é..."/></div>
+        <div>Senha*: <input name="senha" type="password" required /></div>
+        <div>Email*: <input name="email" type="email" required /></div>
+        <div>CPF*: <input name="cpf" type="text" required /></div>
+        <div><input name="escondido" type="hidden" value="form-rh-2020" /></div>
+        <div>Anos de experiência: <input name="xp" type="number" /></div>
+        <div>Programador: <input name="programador" type="checkbox" /></div>
+        <div>Currículo: <input name="curriculum" type="file" /></div>
+        <div>Linkedin: <input name="linkedin" type="url" /></div>
+        <div>
+          Estado Civil:
+          <input name="estadocivil" type="radio" value="solteiro" /> Solteiro
+          <input name="estadocivil" type="radio" value="casado" /> Casado
+        </div>
+        <div>
+            Curso:
+            <select name="curso">
+                <option>Selecione...</option>
+                <option value="WFR">Web Frontend & React</option>
+                <option value="WFS">Web Fullstack</option>
+                <option valeu="WRD">Web & React (Digital)</option>
+            </select>
+        </div>
+        <div>
+        Observações:<br>
+            <textarea name="texto" cols="50" rows="5">
+Isso é um texto
+        Com quebras de linha
+                Que são respeitadas pelo textarea
+            </textarea>
+        </div>
+        <p>*Campos obrigatórios</p>
+        <div>
+            <input name="reset" type="reset" value="limpar" />
+            <input name="submit" type="submit" value="submeter" />
+        </div>
+      </form>
+</body>
+</html>
