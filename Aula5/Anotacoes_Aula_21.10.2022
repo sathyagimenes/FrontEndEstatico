@@ -1,0 +1,11 @@
+Fazer até 3 classes diferentes para a mesma tag. A ideia não é ficar mudando muito
+
+para trabalhar o id do html no css basta utilizar o # ao inves do .
+ex:
+
+#header {
+    padding: 0 30px;
+}
+
+no html:
+<div id="header"></div>
